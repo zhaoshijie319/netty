@@ -1,0 +1,52 @@
+.gradle*
+rebel.xml
+build/
+out/
+
+# Eclipse
+*.launch
+.project
+.metadata
+.springBeans
+.classpath
+.settings/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+**/.idea/
+**/out/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# maven
+**/target/
+
+# project
+hs_err_pid*
+/~/
+**/inno_build
+**/derby.log
+**/logs/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+!namelist-person-service/lib/*.jar
+!/**/hash-identify-0.0.1-20181228.102350-7.jar
+!/**/1528889675200http-sdk-1.0.4.2plus.jar
